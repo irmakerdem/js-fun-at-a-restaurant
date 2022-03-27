@@ -30,13 +30,12 @@ function removeMenuItem(restaurant, foodName, foodType) {
 // restaurant.menus[foodObj.type] = "lunch"
 
 // function addMenuItem(restaurant, foodObj) {
-//   if(foodObj.type === "breakfast") {
+//   if (foodObj.type === "breakfast" && !restaurant.menus.breakfast.includes(foodObj)) {
 //     restaurant.menus.breakfast.push(foodObj)
-//   } else if(foodObj.type === "lunch") {
+//   } else if (foodObj.type === "lunch" && !restaurant.menus.lunch.includes(foodObj)) {
 //     restaurant.menus.lunch.push(foodObj)
-//   } else {
+//   } else if (foodObj.type === "dinner" && !restaurant.menus.dinner.includes(foodObj))
 //     restaurant.menus.dinner.push(foodObj)
-//   }
 // };
 
 module.exports = {
