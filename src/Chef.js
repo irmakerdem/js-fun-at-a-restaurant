@@ -8,7 +8,6 @@ class Chef {
       return `Good morning, ${customerName}!`
     } return `Hello, ${customerName}!`
   }
-
   checkForFood(foodObj) {
     if(resty.menus[foodObj.type].includes(foodObj)) {
       return `Yes, we're serving ${foodObj.name} today!`
